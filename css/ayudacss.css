@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/fondo-index.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Bebas Neue', cursive;
+}
+/* ---return---- */
+
+
+header {
+    width: 100%;
+    height: 100px;   
+}
+
+header nav .menu-nav-ayuda {
+    padding: 15px;
+    margin: 10px;
+}
+
+header nav .menu-nav-ayuda a {
+    color: white;
+    font-size:15px;
+    text-decoration:none;
+}
+
+/* ----buscador--- */
+
+.conteiner-ayuda {
+    width: 100%;
+    height:65vh;
+}
+
+.conteiner-ayuda .menu-busqueda {
+    display: grid;
+    grid-template-columns: 1fr;
+   justify-items: center;
+   align-items: center;
+}
+
+.conteiner-ayuda .menu-busqueda h1 {
+    font-size:75px;
+    margin-left: 30px;
+}
+
+.conteiner-ayuda .menu-busqueda .text-busqueda {
+    margin: 10px 0px;
+    padding:45px;
+}
+
+.conteiner-ayuda .menu-busqueda .text-busqueda input {
+    width: 450px;
+    height:25px;
+    border: 1px solid white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+/*----footer--- */
+
+footer {
+    width: 100%;
+    height:112px;
+    background-color: white;
+}
+
+footer .grupo-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 25px;
+
+}
+
+footer .grupo-1 .box{
+    margin-top:35px;
+
+    text-align: center;
+
+}
+
+footer .grupo-1 figure, img {
+    width: 150px;
+    height:80px;
+    margin-top: 8px;
+    margin-left: 25px;
+    align-items: center;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    body {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    header nav .menu-nav-ayuda {
+        margin: 6px;
+        padding: 3px;
+    }
+    header nav .menu-nav-ayuda a{
+        font-size: 40px;
+    }
+    .conteiner-ayuda .menu-busqueda h1{
+        text-align: center;
+    }
+
+    footer {
+        position:fixed;
+        bottom: 0;
+        width: 100%;
+        height: 160px;
+    }
+
+    footer .grupo-1 {
+        align-items: center;
+    }
+    footer .grupo-1 figure, img {
+        margin-right: -44px;
+    margin-left: 0px;
+    height: auto;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    header nav .menu-nav-ayuda {
+            padding: 0;
+    }
+
+    header nav .menu-nav-ayuda a {
+            font-size: 40px;
+    }
+    .conteiner-ayuda .menu-busqueda h1 {
+
+            font-size: 30px;
+    }
+}
+

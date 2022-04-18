@@ -1,0 +1,51 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+body{
+            background-image: url(../images/backgroud-contacto.jpg);
+            background-position: center;
+            background-size: cover;
+            font-family: 'Cinzel', serif;
+}
+
+.navbar-light .navbar-brand {
+            font-family: 'Cinzel', serif;
+            font-size: 40px;
+            margin: auto;
+}
+
+.sticky-top {
+            background-color: cornsilk;
+}
+
+.navbar-light .navbar-toggler {
+            background-color: floralwhite
+}
+
+.card {
+            background-color: #dd999994;
+            border-radius: 4.25rem;
+            border-top-left-radius: 4.25rem;
+            margin-top: 45px
+}
+
+.card-text {
+            color: black;
+            font-size: 35px;
+            font-family: 'Whisper', cursive; 
+            text-align: center; 
+}
+
+.color-fondo {
+            background-color: rgba(0,0,0,0.3);;
+}
+
+.cele {
+            color: #ffc107;
+}
+
+.posicion-boton {
+            position: absolute;
+}
